@@ -25,7 +25,7 @@ class PopularMoviesPagingSource @Inject constructor(
     }
 
     override suspend fun load(params: LoadParams<Int>): LoadResult<Int, MovieItem> {
-        delay(3000)
+        delay(1000)
         val page: Int = params.key ?: 1
         val moviesResult = runCatchingResult { apiService.getPopularMovies(page = page) }
         return if (moviesResult is Result.Success) {

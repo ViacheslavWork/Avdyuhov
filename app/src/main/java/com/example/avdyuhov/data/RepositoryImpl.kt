@@ -43,7 +43,7 @@ class RepositoryImpl @Inject constructor(
 
     override suspend fun getMovie(id: Int): Result<MovieDetails> {
         return runCatchingResult {
-            delay(3000)
+            delay(1000)
             remoteDataSource.loadMovie(id)
         }
     }

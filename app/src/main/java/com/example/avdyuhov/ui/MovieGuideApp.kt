@@ -86,9 +86,7 @@ fun MovieGuideApp() {
                 movieId?.let { id ->
                     DetailsScreen(
                         movieId = id,
-                        onBackButtonPressed = {
-                            navController.popBackStack(MovieGuideDestination.List.route, false)
-                        }
+                        onBackButtonPressed = { navController.popBackStack() }
                     )
                 }
             }
