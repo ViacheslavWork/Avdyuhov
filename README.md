@@ -9,3 +9,4 @@ Technologies:
 -Navigation Component
 -Material3
 -Clean arcitecture
+Click on the heart to add to favorites
