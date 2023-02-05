@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Avdyuhov</string>
+    <string name="back_button_text">Назад</string>
+    <string name="storyline">Описание</string>
+    <string name="cast">Актеры</string>
+    <string name="movies_list">Список фильмов</string>
+    <string name="next">Следующий</string>
+    <string name="previous">Предыдущий</string>
+    <string name="unable_download_movie_details">Невозможно загрузить детальную информацию о фильме</string>
+    <string name="unable_download_movies">Невозможно загрузить список фильмов</string>
+    <string name="loading">Загрузка…</string>
+    <string name="top">Лучшие</string>
+    <string name="favorites">Избранные</string>
+</resources>
